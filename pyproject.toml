@@ -14,5 +14,8 @@ dependencies = [
 main = "example_dspy_redis.app:main"
 
 [build-system]
-requires = ["uv_build>=0.9.28,<0.10.0"]
+requires = ["uv_build>=0.9.28,<0.11"]
 build-backend = "uv_build"
+
+[tool.pyright]
+reportMissingImports = false
